@@ -38,6 +38,9 @@ public class App {
 		}
 		
 		System.out.println("###");						// Ausgabe des Stamms
+		
+		myScanner.close();
+		System.exit(1);
 
 	}
 
